@@ -3,4 +3,6 @@ def My_method
   Yield 
   puts ["reached the bottom"]
 end 
+My_method do 
+  puts ['reched yield']
 end
